@@ -6,6 +6,8 @@ body {
     font-family: Roboto;
     max-width: 100%;
 }
+
+/* HERO SECTION */
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -46,7 +48,6 @@ body {
     height: 300px;
     margin: 52px auto;
     gap: 8px;
-    /* width: ; */
 }
 .hero-main-right {
     width:400px;
@@ -153,14 +154,11 @@ body {
     width: 152vh;
     height: 16vh;
     margin: auto auto;
-    /* display: flex; */
     display: flex;
     justify-content: space-around;
-    /* padding: 25px; */
 }
 .cta-child-container div{
     margin: 30px 20px;
-    /* flex-grow: 1; */
     width: 80vh;
     height: 10vh;
 }
@@ -181,7 +179,21 @@ body {
     width: 26vh;
     height: 5vh;
     margin: 30px 20px;
-    /* height: 1; */
     border-radius: 8px;
     color: #e5e7eb;
+}
+.footer-section {
+    height: 5px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    margin: 2px auto;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+}
+.footer img {
+    width: 12px;
+    
 }
