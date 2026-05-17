@@ -1,0 +1,120 @@
+* {
+    /* outline: 2px solid black; */
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    max-width: 100%;
+}
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 86vh;
+}
+.hero-section header {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.logo, .nav-list {
+    width: 300px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.logo img {
+    width: 47px;
+    height: 47px;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-list a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.hero-main {
+    display: flex;
+    justify-content: center
+    ;
+    height: 300px;
+    margin: 52px auto;
+    gap: 8px;
+    /* width: ; */
+}
+.hero-main-right {
+    width:400px;
+    height: 300px;
+}
+.hero-main-right h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #f9faf8;
+}
+.hero-main-right p{
+    color: #e5e7eb;
+    font-size: 12px;
+    margin: 0px;
+    padding-left: 8px;
+}
+.hero-main-right button {
+    background-color: #3882f6;
+    text-align: center;
+    margin: 8px auto;
+    border: 1px solid #3882f6;
+    border-radius: 4px;
+    color: #e5e7eb;
+    font-weight: 600;
+    font-size: 17px;
+    width: 122px;
+}
+
+.hero-main-left img{
+    width: 520px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* OUR TEAM SECTION */
+/* .team-section {
+    width: 100%;
+}
+.team-section h3 {
+    text-align: center;
+    padding: 15px;
+    /* margin: auto auto; */
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    
+}
+.team-container div {
+    width: 30vh;
+    height: 49vh;
+}
+.team-container img{
+    width: 30vh;
+    height: 33vh;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #3882f6;
+    border-radius: 9px;
+    /* object-fit: cover; */
+}
+.team-container p {
+    font-size: 12px;
+    text-align: center;
+    width: 22vh;
+    margin: 8px auto;
+
+} */
